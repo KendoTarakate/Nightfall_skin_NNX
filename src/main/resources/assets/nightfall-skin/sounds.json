@@ -1,0 +1,18 @@
+{
+  "updateskin_fun": {
+    "sounds": [
+      {
+        "name": "nightfall-skin:updateskin_fun",
+        "stream": false
+      }
+    ]
+  },
+  "updateskinka": {
+    "sounds": [
+      {
+        "name": "nightfall-skin:updateskinka",
+        "stream": false
+      }
+    ]
+  }
+}

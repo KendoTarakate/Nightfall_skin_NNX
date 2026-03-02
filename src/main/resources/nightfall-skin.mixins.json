@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "net.kendo.nightfall.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "PlayerEntityRendererMixin",
+      "ScreenDragDropMixin",
+      "AbstractClientPlayerEntityAccessor",
+      "PlayerListEntryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

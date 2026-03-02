@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nightfall-skin",
+	"version": "${version}",
+	"name": "nightfall skin",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nightfall-skin/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kendo.nightfall.NightfallSkin"
+		],
+      "client": [
+        "net.kendo.nightfall.NightfallSkinClient"
+      ],
+      "server": [
+        "net.kendo.nightfall.NightfallSkinServer"
+      ]
+	},
+	"mixins": [
+		"nightfall-skin.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
