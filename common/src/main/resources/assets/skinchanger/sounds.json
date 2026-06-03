@@ -1,0 +1,14 @@
+{
+  "updateskin_fun": {
+    "sounds": [
+      "skinchanger:updateskin_fun"
+    ],
+    "subtitle": "subtitles.skinchanger.skin_changed"
+  },
+  "updateskinka": {
+    "sounds": [
+      "skinchanger:updateskinka"
+    ],
+    "subtitle": "subtitles.skinchanger.skin_changed"
+  }
+}

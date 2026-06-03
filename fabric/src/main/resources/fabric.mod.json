@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "Nightfall Team"
+  ],
+  "contact": {
+    "homepage": "${home_page}",
+    "sources": "${sources_page}",
+    "issues": "${issues_page}"
+  },
+  "license": "${license}",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kendo.nightfall.fabric.NightfallSkinFabric"
+    ],
+    "client": [
+      "net.kendo.nightfall.fabric.client.NightfallSkinClientFabric"
+    ]
+  },
+  "mixins": [
+    "skinchanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "${minecraft_dependency}",
+    "java": ">=17",
+    "architectury": "*",
+    "fabric-api": "*"
+  }
+}
